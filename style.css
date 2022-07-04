@@ -1,0 +1,483 @@
+:root {
+  --clr-textfont: 'Roboto', sans-serif;
+  --clr-bordercolor: #B2BCCA;
+  --clr-box-backgroundcolor: #ffffff;
+  --clr-body-backgroundcolor: #E5E5E5;
+  --clr-text-color: #242424;
+  --clr-email-color: #818181;
+  --clr-svg-backgroundcolor: #F5F5F5;
+  --clr-text-logo-font: 'Griffy', cursive;
+  --clr-check-color: #03AC00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: var(--clr-body-backgroundcolor);
+}
+
+body .container {
+  width: 33rem;
+  height: 20.1rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 0.5rem;
+}
+
+body .container .box1-container {
+  width: 100%;
+  height: 6.2rem;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--clr-bordercolor);
+  background-color: var(--clr-box-backgroundcolor);
+  padding: 0px 0px 0px 6px;
+  position: relative;
+}
+
+body .container .box1-container .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .container .box1-container .box1 .box1-head {
+  width: 6.1rem;
+}
+
+body .container .box1-container .box1 .box1-head .box1-images {
+  padding-top: 100%;
+  position: relative;
+}
+
+body .container .box1-container .box1 .box1-head .box1-images .box1-img {
+  position: absolute;
+  top: 17%;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: matrix(0.93, 0.36, -0.36, 0.93, 0, 0);
+          transform: matrix(0.93, 0.36, -0.36, 0.93, 0, 0);
+  border-radius: 28px;
+}
+
+body .container .box1-container .box1 .box1-body {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 24.25rem;
+  height: 4.3rem;
+  padding: 1rem 1.1rem 1.1rem 0, 3rem;
+  line-height: 1rem;
+}
+
+body .container .box1-container .box1 .box1-body .box1-title {
+  font-family: var(--clr-textfont);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--clr-text-color);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-top: 0.8rem;
+}
+
+body .container .box1-container .box1 .box1-body .box1-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 24.9rem;
+  height: 2.3rem;
+  margin-top: 0.5rem;
+}
+
+body .container .box1-container .box1 .box1-body .box1-footer #email1 {
+  font-family: var(--clr-textfont);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.02em;
+  color: var(--clr-email-color);
+  border: none;
+  border-bottom: 1px solid;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  outline: none;
+}
+
+body .container .box1-container .box1 .box1-body .box1-footer .svg-icon1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .box1-container .box1 .box1-body .box1-footer .svg-icon1 .send1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--clr-svg-backgroundcolor);
+}
+
+body .container .box1-container .logo1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 10%;
+  top: -10%;
+  width: 3.6rem;
+  height: 1.25rem;
+  padding: 4px 8px;
+  border: 1px solid;
+  border-color: var(--clr-bordercolor);
+  border-radius: 1rem;
+  background-color: var(--clr-box-backgroundcolor);
+}
+
+body .container .box1-container .logo1 .text-logo1 {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-family: var(--clr-text-logo-font);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00E786), to(#00D0D0));
+  background: linear-gradient(180deg, #00E786 0%, #00D0D0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+body .container .box2-container {
+  width: 100%;
+  height: 6.2rem;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--clr-bordercolor);
+  background-color: var(--clr-box-backgroundcolor);
+  padding: 0px 0px 0px 6px;
+  position: relative;
+  margin-top: 3rem;
+}
+
+body .container .box2-container .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .container .box2-container .box2 .box2-head {
+  width: 6.1rem;
+}
+
+body .container .box2-container .box2 .box2-head .box2-images {
+  padding-top: 100%;
+  position: relative;
+}
+
+body .container .box2-container .box2 .box2-head .box2-images .box2-img {
+  position: absolute;
+  top: 17%;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: matrix(0.93, 0.36, -0.36, 0.93, 0, 0);
+          transform: matrix(0.93, 0.36, -0.36, 0.93, 0, 0);
+  border-radius: 28px;
+}
+
+body .container .box2-container .box2 .box2-body {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 24.25rem;
+  height: 4.3rem;
+  padding: 1rem 1.1rem 1.1rem 0, 3rem;
+  line-height: 1rem;
+}
+
+body .container .box2-container .box2 .box2-body .box2-title {
+  font-family: var(--clr-textfont);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--clr-text-color);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-top: 0.8rem;
+}
+
+body .container .box2-container .box2 .box2-body .box2-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 24rem;
+  height: 2.3rem;
+  margin-top: 0.5rem;
+}
+
+body .container .box2-container .box2 .box2-body .box2-footer .box2-input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border-bottom: 1px solid;
+  color: var(--clr-email-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .box2-container .box2 .box2-body .box2-footer .box2-input #email2 {
+  font-family: var(--clr-textfont);
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.02em;
+  border: none;
+  outline: none;
+}
+
+body .container .box2-container .box2 .box2-body .box2-footer .box2-input .box2-icon .trash2 {
+  cursor: pointer;
+}
+
+body .container .box2-container .box2 .box2-body .box2-footer .box2-input .box2-icon .check2 {
+  margin-left: 8px;
+  color: var(--clr-check-color);
+  cursor: pointer;
+}
+
+body .container .box2-container .box2 .box2-body .box2-footer .svg-icon2 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 2.5rem;
+}
+
+body .container .box2-container .box2 .box2-body .box2-footer .svg-icon2 .send2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--clr-svg-backgroundcolor);
+}
+
+body .container .box2-container .logo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 10%;
+  top: -10%;
+  width: 3.6rem;
+  height: 1.25rem;
+  padding: 4px 8px;
+  border: 1px solid;
+  border-color: var(--clr-bordercolor);
+  border-radius: 1rem;
+  background-color: var(--clr-box-backgroundcolor);
+}
+
+body .container .box2-container .logo2 .text-logo2 {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-family: var(--clr-text-logo-font);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00E786), to(#00D0D0));
+  background: linear-gradient(180deg, #00E786 0%, #00D0D0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+body .container .box3-container {
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--clr-bordercolor);
+  background-color: var(--clr-box-backgroundcolor);
+  padding: 0px 0px 0px 6px;
+  position: relative;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+body .container .box3-container .box3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 31.2rem;
+  height: 2.75rem;
+}
+
+body .container .box3-container .box3 .svg-arrow {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+body .container .box3-container .box3 .svg-arrow .arrow3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--clr-svg-backgroundcolor);
+}
+
+body .container .box3-container .box3 .box3-text {
+  font-family: var(--clr-textfont);
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  padding-left: 0.5rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+body .container .box3-container .box3 .box3-text span {
+  font-weight: bold;
+}
+
+body .container .box3-container .logo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: 10%;
+  top: -10%;
+  width: 3.6rem;
+  height: 1.25rem;
+  padding: 4px 8px;
+  border: 1px solid;
+  border-color: var(--clr-bordercolor);
+  border-radius: 1rem;
+  background-color: var(--clr-box-backgroundcolor);
+}
+
+body .container .box3-container .logo3 .text-logo3 {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-family: var(--clr-text-logo-font);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00E786), to(#00D0D0));
+  background: linear-gradient(180deg, #00E786 0%, #00D0D0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,386 @@
+:root {
+    --clr-textfont: 'Roboto', sans-serif;
+    --clr-bordercolor: #B2BCCA;
+    --clr-box-backgroundcolor: #ffffff;
+    --clr-body-backgroundcolor: #E5E5E5;
+    --clr-text-color: #242424;
+    --clr-email-color: #818181;
+    --clr-svg-backgroundcolor: #F5F5F5;
+    --clr-text-logo-font: 'Griffy', cursive;
+    --clr-check-color: #03AC00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: var(--clr-body-backgroundcolor);
+
+    .container {
+        width: 33rem;
+        height: 20.1rem;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0rem 0.5rem;
+
+        .box1-container {
+            width: 100%;
+            height: 6.2rem;
+            border-radius: 12px;
+            border: 1px solid;
+            border-color: var(--clr-bordercolor);
+            background-color: var(--clr-box-backgroundcolor);
+            padding: 0px 0px 0px 6px;
+            position: relative;
+
+            .box1 {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .box1-head {
+                    width: 6.1rem;
+
+                    .box1-images {
+                        padding-top: 100%;
+                        position: relative;
+
+                        .box1-img {
+                            position: absolute;
+                            top: 17%;
+                            left: 0;
+                            object-fit: cover;
+                            transform: matrix(0.93, 0.36, -0.36, 0.93, 0, 0);
+                            border-radius: 28px;
+                        }
+                    }
+                }
+
+                .box1-body {
+                    flex-grow: 1;
+                    width: 24.25rem;
+                    height: 4.3rem;
+                    padding: 1rem 1.1rem 1.1rem 0, 3rem;
+                    line-height: 1rem;
+
+                    .box1-title {
+                        font-family: var(--clr-textfont);
+                        font-size: 0.9rem;
+                        font-weight: 500;
+                        color: var(--clr-text-color);
+                        text-transform: uppercase;
+                        letter-spacing: 0.02em;
+                        margin-top: 0.8rem;
+
+                    }
+
+                    .box1-footer {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 24.9rem;
+                        height: 2.3rem;
+                        margin-top: 0.5rem;
+
+                        #email1 {
+                            font-family: var(--clr-textfont);
+                            font-size: 0.8rem;
+                            line-height: 1.2rem;
+                            letter-spacing: 0.02em;
+                            color: var(--clr-email-color);
+                            border: none;
+                            border-bottom: 1px solid;
+                            flex-grow: 2;
+                            outline: none;
+                        }
+
+                        .svg-icon1 {
+                            flex-grow: 1;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+
+                            .send1 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 1.9rem;
+                                height: 1.9rem;
+                                cursor: pointer;
+                                border-radius: 50%;
+                                background-color: var(--clr-svg-backgroundcolor);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .logo1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                right: 10%;
+                top: -10%;
+                width: 3.6rem;
+                height: 1.25rem;
+                padding: 4px 8px;
+                border: 1px solid;
+                border-color: var(--clr-bordercolor);
+                border-radius: 1rem;
+                background-color: var(--clr-box-backgroundcolor);
+
+                .text-logo1 {
+                    font-weight: 400;
+                    font-size: 0.8rem;
+                    line-height: 1rem;
+                    font-family: var(--clr-text-logo-font);
+                    background: linear-gradient(180deg, #00E786 0%, #00D0D0 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+            }
+
+        }
+
+        .box2-container {
+            width: 100%;
+            height: 6.2rem;
+            border-radius: 12px;
+            border: 1px solid;
+            border-color: var(--clr-bordercolor);
+            background-color: var(--clr-box-backgroundcolor);
+            padding: 0px 0px 0px 6px;
+            position: relative;
+            margin-top: 3rem;
+
+            .box2 {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .box2-head {
+                    width: 6.1rem;
+
+                    .box2-images {
+                        padding-top: 100%;
+                        position: relative;
+
+                        .box2-img {
+                            position: absolute;
+                            top: 17%;
+                            left: 0;
+                            object-fit: cover;
+                            transform: matrix(0.93, 0.36, -0.36, 0.93, 0, 0);
+                            border-radius: 28px;
+                        }
+                    }
+                }
+
+                .box2-body {
+                    flex-grow: 1;
+                    width: 24.25rem;
+                    height: 4.3rem;
+                    padding: 1rem 1.1rem 1.1rem 0, 3rem;
+                    line-height: 1rem;
+
+                    .box2-title {
+                        font-family: var(--clr-textfont);
+                        font-size: 0.9rem;
+                        font-weight: 500;
+                        color: var(--clr-text-color);
+                        text-transform: uppercase;
+                        letter-spacing: 0.02em;
+                        margin-top: 0.8rem;
+
+                    }
+
+                    .box2-footer {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 24rem;
+                        height: 2.3rem;
+                        margin-top: 0.5rem;
+
+                        .box2-input {
+                            flex-grow: 2;
+                            border-bottom: 1px solid;
+                            color: var(--clr-email-color);
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            #email2 {
+                                font-family: var(--clr-textfont);
+                                font-size: 0.8rem;
+                                line-height: 1.2rem;
+                                letter-spacing: 0.02em;
+                                border: none;
+                                outline: none;
+                            }
+
+                            .box2-icon {
+                                .trash2 {
+                                    cursor: pointer;
+                                }
+
+                                .check2 {
+                                    margin-left: 8px;
+                                    color: var(--clr-check-color);
+                                    cursor: pointer;
+                                }
+                            }
+
+                        }
+
+
+                        .svg-icon2 {
+                            flex-grow: 1;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-left: 2.5rem;
+
+                            .send2 {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                width: 1.9rem;
+                                height: 1.9rem;
+                                cursor: pointer;
+                                border-radius: 50%;
+                                background-color: var(--clr-svg-backgroundcolor);
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            .logo2 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                right: 10%;
+                top: -10%;
+                width: 3.6rem;
+                height: 1.25rem;
+                padding: 4px 8px;
+                border: 1px solid;
+                border-color: var(--clr-bordercolor);
+                border-radius: 1rem;
+                background-color: var(--clr-box-backgroundcolor);
+
+                .text-logo2 {
+                    font-weight: 400;
+                    font-size: 0.8rem;
+                    line-height: 1rem;
+                    font-family: var(--clr-text-logo-font);
+                    background: linear-gradient(180deg, #00E786 0%, #00D0D0 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+            }
+        }
+
+        .box3-container {
+            width: 100%;
+            height: 4.5rem;
+            border-radius: 12px;
+            border: 1px solid;
+            border-color: var(--clr-bordercolor);
+            background-color: var(--clr-box-backgroundcolor);
+            padding: 0px 0px 0px 6px;
+            position: relative;
+            margin-top: 3rem;
+            padding: 1rem;
+
+            .box3 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 31.2rem;
+                height: 2.75rem;
+
+                .svg-arrow {
+                    width: 1.9rem;
+                    height: 1.9rem;
+
+                    .arrow3 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 1.9rem;
+                        height: 1.9rem;
+                        cursor: pointer;
+                        border-radius: 50%;
+                        background-color: var(--clr-svg-backgroundcolor);
+                    }
+                }
+
+
+                .box3-text {
+                    font-family: var(--clr-textfont);
+                    font-weight: 400;
+                    font-size: 0.8rem;
+                    line-height: 1.2rem;
+                    padding-left: 0.5rem;
+                    flex-grow: 1;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .logo3 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                right: 10%;
+                top: -10%;
+                width: 3.6rem;
+                height: 1.25rem;
+                padding: 4px 8px;
+                border: 1px solid;
+                border-color: var(--clr-bordercolor);
+                border-radius: 1rem;
+                background-color: var(--clr-box-backgroundcolor);
+
+                .text-logo3 {
+                    font-weight: 400;
+                    font-size: 0.8rem;
+                    line-height: 1rem;
+                    font-family: var(--clr-text-logo-font);
+                    background: linear-gradient(180deg, #00E786 0%, #00D0D0 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 90%;
+    }
+}
