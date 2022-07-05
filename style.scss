@@ -239,7 +239,9 @@ body {
                                 justify-content: center;
                                 align-items: center;
 
-                                // .trash2 {}
+                                .trash2 {
+                                    margin-right: 8px;
+                                }
 
                                 .check2 {
                                     color: var(--clr-check-color);

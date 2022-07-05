@@ -311,6 +311,10 @@ body .container .box2-container .box2 .box2-body .box2-footer .box2-input .box2-
           align-items: center;
 }
 
+body .container .box2-container .box2 .box2-body .box2-footer .box2-input .box2-icon .trash2 {
+  margin-right: 8px;
+}
+
 body .container .box2-container .box2 .box2-body .box2-footer .box2-input .box2-icon .check2 {
   color: var(--clr-check-color);
 }
