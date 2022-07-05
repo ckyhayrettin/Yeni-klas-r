@@ -86,7 +86,7 @@ body {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        width: 24.9rem;
+                        width: 24rem;
                         height: 2.3rem;
                         margin-top: 0.5rem;
 
@@ -107,7 +107,7 @@ body {
                             display: flex;
                             align-items: center;
                             justify-content: center;
-
+                            margin-right: 4px;
 
                             .send1 {
                                 display: flex;
@@ -162,8 +162,8 @@ body {
             border-color: var(--clr-bordercolor);
             background-color: var(--clr-box-backgroundcolor);
             padding: 0px 0px 0px 6px;
-            position: relative;
             margin-top: 3rem;
+            position: relative;
 
             .box2 {
                 display: flex;
@@ -215,34 +215,36 @@ body {
                         margin-top: 0.5rem;
 
                         .box2-input {
-                            flex-grow: 2;
-                            border-bottom: 1px solid;
-                            color: var(--clr-email-color);
+                            width: 73.5%;
                             display: flex;
                             align-items: center;
-                            justify-content: space-between;
+                            justify-content: center;
+                            border-bottom: 1px solid;
+                            color: var(--clr-email-color);
+
 
                             #email2 {
                                 font-family: var(--clr-textfont);
                                 font-size: 0.8rem;
                                 line-height: 1.2rem;
                                 letter-spacing: 0.02em;
+                                color: var(--clr-email-color);
                                 border: none;
+                                width: 100%;
                                 outline: none;
                             }
 
                             .box2-icon {
-                                .trash2 {
-                                    cursor: pointer;
-                                }
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                // .trash2 {}
 
                                 .check2 {
-                                    margin-left: 8px;
                                     color: var(--clr-check-color);
-                                    cursor: pointer;
                                 }
                             }
-
                         }
 
 
@@ -251,7 +253,7 @@ body {
                             display: flex;
                             align-items: center;
                             justify-content: center;
-                            margin-left: 2.5rem;
+                            margin-right: 4px;
 
                             .send2 {
                                 display: flex;
@@ -262,7 +264,6 @@ body {
                                 cursor: pointer;
                                 border-radius: 50%;
                                 background-color: var(--clr-svg-backgroundcolor);
-
                             }
                         }
                     }
@@ -296,6 +297,7 @@ body {
                     text-fill-color: transparent;
                 }
             }
+
         }
 
         .box3-container {

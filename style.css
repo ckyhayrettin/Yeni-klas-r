@@ -107,7 +107,7 @@ body .container .box1-container .box1 .box1-body .box1-footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 24.9rem;
+  width: 24rem;
   height: 2.3rem;
   margin-top: 0.5rem;
 }
@@ -139,6 +139,7 @@ body .container .box1-container .box1 .box1-body .box1-footer .svg-icon1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-right: 4px;
 }
 
 body .container .box1-container .box1 .box1-body .box1-footer .svg-icon1 .send1 {
@@ -201,8 +202,8 @@ body .container .box2-container {
   border-color: var(--clr-bordercolor);
   background-color: var(--clr-box-backgroundcolor);
   padding: 0px 0px 0px 6px;
-  position: relative;
   margin-top: 3rem;
+  position: relative;
 }
 
 body .container .box2-container .box2 {
@@ -273,20 +274,18 @@ body .container .box2-container .box2 .box2-body .box2-footer {
 }
 
 body .container .box2-container .box2 .box2-body .box2-footer .box2-input {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
-  border-bottom: 1px solid;
-  color: var(--clr-email-color);
+  width: 73.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid;
+  color: var(--clr-email-color);
 }
 
 body .container .box2-container .box2 .box2-body .box2-footer .box2-input #email2 {
@@ -294,18 +293,26 @@ body .container .box2-container .box2 .box2-body .box2-footer .box2-input #email
   font-size: 0.8rem;
   line-height: 1.2rem;
   letter-spacing: 0.02em;
+  color: var(--clr-email-color);
   border: none;
+  width: 100%;
   outline: none;
 }
 
-body .container .box2-container .box2 .box2-body .box2-footer .box2-input .box2-icon .trash2 {
-  cursor: pointer;
+body .container .box2-container .box2 .box2-body .box2-footer .box2-input .box2-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .container .box2-container .box2 .box2-body .box2-footer .box2-input .box2-icon .check2 {
-  margin-left: 8px;
   color: var(--clr-check-color);
-  cursor: pointer;
 }
 
 body .container .box2-container .box2 .box2-body .box2-footer .svg-icon2 {
@@ -321,7 +328,7 @@ body .container .box2-container .box2 .box2-body .box2-footer .svg-icon2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 2.5rem;
+  margin-right: 4px;
 }
 
 body .container .box2-container .box2 .box2-body .box2-footer .svg-icon2 .send2 {
